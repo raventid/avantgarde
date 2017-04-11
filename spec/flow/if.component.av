@@ -1,0 +1,14 @@
+Package: Kernel
+
+Component: If
+
+Input: a : Any
+Output: out : Boolean
+
+Functionality:
+  # allow procedural
+  newA = a << ToBoolean
+  answer = a <<? True
+  # disallow procedural
+
+  Unit(out=answer, out=out)
