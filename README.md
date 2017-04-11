@@ -15,3 +15,18 @@ Output: exists
 Functionality:
   CheckUserCredentials(login=login, password=password, out=exists)
 ```
+
+```
+Package: User/Authorization
+
+Component: CheckUserCredentials
+
+Input: login, password
+Output: out
+
+Functionality:
+  FindUser(login=login, user=user)
+  IsTrue(a=user, out=isUser)
+  Finish(flag=isUser)
+  CheckPassword(user=user, password=password, out=out)
+```
