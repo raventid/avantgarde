@@ -30,3 +30,48 @@ Functionality:
   Finish(flag=isUser)
   CheckPassword(user=user, password=password, out=out)
 ```
+
+And the same code components with types
+
+```
+Package: User/Authorization
+
+Component: User
+
+Input: login : String, password : String
+Output: exists : Boolean
+
+Functionality:
+  CheckUserCredentials(login=login, password=password, out=exists)
+```
+
+```
+Package: User/Authorization
+
+Component: CheckUserCredentials
+
+Input: login : String, password : String
+Output: out : Boolean
+
+Functionality:
+  FindUser(login=login, user=user)
+  IsTrue(a=user, out=isUser)
+  Finish(flag=isUser)
+  CheckPassword(user=user, password=password, out=out)
+```
+
+A lot of programming tasks require you to use some kind of data structures. Avangarde provides a consistent way to create data structures. 
+
+```
+Package: User
+
+Structure: User
+
+Fields: 
+  login : String, -- This comma is not required. New line is a hint for compiler, that expression is completed.
+  password : String
+
+Functionality:
+  Eat(food : Food =)
+  Sleep(bed : Bed =)
+```
