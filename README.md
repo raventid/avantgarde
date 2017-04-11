@@ -1,4 +1,12 @@
 # avangarde
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
 Component base, general purpose, declarative language.
 
 Avangarde is a development platform and language inspired by different HDL langauges. It leverage the power of abstract components to build
