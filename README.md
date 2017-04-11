@@ -5,14 +5,13 @@ Avangarde is a development platform and language inspired by different HDL langa
 robust and scalabale abstractions.
 
 ```
-Package User/Authorization
+Package: User/Authorization
 
-Component User
+Component: User
 
 Input: login, password
 Output: exists
 
-Functionality {
+Functionality:
   CheckUserCredentials(login=login, password=password, out=exists)
-}
 ```
