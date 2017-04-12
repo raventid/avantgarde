@@ -77,3 +77,25 @@ Functionality:
   Eat(food : Food =)
   Sleep(bed : Bed =)
 ```
+
+Highly encapsulated Avangarde modules might be imported to your component:
+
+```
+Package: User
+
+Structure: User
+
+Dependencies:
+  User/Payments/CreditCard -- concrete component
+  User/Orders/* -- everything from Orders package
+  -- User/Payments/CreditCard As CC -- oops, it's not possible, you must not rename component!
+  
+
+Fields: 
+  login : String, -- This comma is not required. New line is a hint for compiler, that expression is completed.
+  password : String
+
+Functionality:
+  Eat(food : Food =)
+  Sleep(bed : Bed =)
+```
