@@ -1,0 +1,9 @@
+Package: Kernel/LowLevel/LogicalOperations
+
+Component: Not
+
+Input: a : Bit
+Output: out : Bit
+
+Functionality:
+  Nand(a=a, b=a, out=out)
