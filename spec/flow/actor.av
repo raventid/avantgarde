@@ -1,0 +1,14 @@
+Package: Kernel/Parallelism/Actor
+
+Component: Actor
+
+Dependencies: 
+ Kernel/Parallelism/Actor/Communication/*
+
+Input: a : Signal
+Output: out : Response
+
+Functionality:
+  RunActor()
+  Sum(a=a, b=currentSum, out=currentSum)
+  Respond(out=currentSum)
