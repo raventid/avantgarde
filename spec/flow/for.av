@@ -1,0 +1,10 @@
+Package: Kernel/Tools
+
+Component: For
+
+Dependencies: Kernel/Lib/Macro
+
+Input: times: Integer, action: Lambda
+
+Functionality:
+  macro_repeat(Run(action=action), times)
