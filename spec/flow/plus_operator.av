@@ -1,0 +1,11 @@
+Package: Kernel/Math/Operators
+
+Component: +
+
+Input: a : Any, b : Same(a)
+Output: out : Same(a)
+
+Dependencies: Kernel/Common/Basic/OrGate, Kernel/Common/Types/Any, Kernel/Common/Types/Same -- Same is a polymorphic type
+
+Functionality:
+  OrGate(a=a, b=b, out=out)
