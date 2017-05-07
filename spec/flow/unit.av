@@ -1,0 +1,10 @@
+Package: Kernel/Test/Unit
+
+Component: Test
+
+Input: None
+Output: out : Boolean
+SideEffects: Yes
+
+Functionality:
+  Assert(a=DoSmth, b=Expectation, out=out)
