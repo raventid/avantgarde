@@ -1,0 +1,12 @@
+Package: Kernel
+
+Component: If
+
+Dependencies: Kernel/Operators/Op<
+
+Input: a : Any, b : Any
+Output: out : Boolean
+
+Functionality:
+  -- Provided by language
+  Cond(a=a, b=b, f=Op<, out=out)
