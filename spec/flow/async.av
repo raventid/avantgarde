@@ -1,0 +1,14 @@
+Package: Userspace/Payment/Stripe
+
+Component: Request
+
+Dependencies: Userspace/HttpFoundation/HttpRequest
+
+Input: 
+  amount : BigInt
+
+Output:
+  status: Symbol
+
+Functionality:
+  HttpRequest(amount=amount, out=out)
