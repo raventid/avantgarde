@@ -1,0 +1,20 @@
+Package: MyProject/Interactions
+
+Component: Interactor
+
+Input: 
+  command : String
+  
+Output: 
+  component : Kernel/ComponentWithSingleArgument
+
+
+-- how can I prove that types here is what I need?
+-- perhaps add notation for this kind of call?
+-- btw all this staff is cbn or cbv?
+
+-- it's still not clear how to make this function polimorphic and do we really need to create compiler level component
+-- for any kind of action? It's not bad to have a good stdlib, but it's not good then user cannot do anything without it.
+
+Functionality:
+  Desider(command=command, component=component)
