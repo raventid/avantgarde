@@ -1,0 +1,9 @@
+Package: /Kernel/IO/StandartOutput
+
+Component: Puts
+
+Input: message : String
+
+Functionality:
+  Streamify(streamSource=message, stream=stream)
+  WriteStream(stream=stream)
