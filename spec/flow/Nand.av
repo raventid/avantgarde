@@ -1,0 +1,14 @@
+Package: Kernel/Lib/Foundation/Nand
+
+Input: a : Bit, b : Bit
+
+Dependencies: Kernel/Lib/Foundation/Bit
+
+-- First place where I'm introducing specification.
+-- In Specification folder we describe component and create so called 'unit tests', to describe behaviour and prove,
+-- that functionality is what we want.
+Specification: Specification/Kernel/Lib/Foundation/Nand
+
+Functionality:
+  -- Low level compiler code here, ugh... It's a basic block of architecture
+  
