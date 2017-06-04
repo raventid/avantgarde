@@ -2,9 +2,9 @@ Package: Kernel/Tools
 
 Component: For
 
-Dependencies: Kernel/Lib/Macro
+Dependencies: Kernel/Lib/Macro, Kernel/Constructions/Lambda, Kernel/Constructions/RepeatTimes
 
-Input: times: Integer, action: Lambda
+Input: times: Integer, action: Lambda, N : RepeatTimes
 
 Functionality:
-  macro_repeat(Run(action=action), times)
+  N(Run(action=action), times)
