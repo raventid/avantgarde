@@ -4,6 +4,8 @@ Component: Puts
 
 Input: message : String
 
+Dependencies: /Kernel/IO/Streamify, /Kernel/IO/WriteStream
+
 Functionality:
   Streamify(streamSource=message, stream=stream)
   WriteStream(stream=stream)
