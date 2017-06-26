@@ -1,0 +1,12 @@
+Package: /Kernel/Lib
+
+Component: Class
+
+Dependencies: /Kernel/
+
+Input: param : Any, implementation : Lambda
+
+Output: response : Boolean
+
+Functionality:
+  ApplyImplementation(param=param, implementation=implementation, response=response)
