@@ -17,7 +17,7 @@ Input: login : String, password : String
 Output: exists : Boolean
 
 Functionality:
-  CheckUserCredentials(login=login, password=password, out=exists)
+  CheckUserCredentials(login=login, password=password, out=exists
 ```
 
 ```
