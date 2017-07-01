@@ -71,3 +71,19 @@ Functionality:
   Eat(food : Food =)
   Sleep(bed : Bed =)
 ```
+
+After some consideration typeclasses aka Haskell class looks like a natural way to handle some actions on components. The problem is that it defeats a part of original idea about language semantics.
+
+
+```
+Package: User/Authorization
+
+Component: User
+
+-- we can use typeclass when we do not care about some specific type:
+Input: login : String, password : String, Enum(a) => user_number : a
+Output: exists : Boolean
+
+Functionality:
+  CheckUserCredentials(login=login, password=password, user_number=user_nubmer, out=exists)
+```
