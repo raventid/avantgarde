@@ -3,8 +3,7 @@
 
 Component base, general purpose, declarative language.
 
-Avangarde is a development platform and language inspired by different HDL langauges. It leverage the power of abstract components to build
-robust and scalabale abstractions.
+Avangarde is a development platform and language inspired by different HDL langauges. It leverage the power of isolated components to build robust and scalabale abstractions.
 
 At the moment Avangarde project in a stage of specification. We are trying to collect some ideas and drafts before starting to implement compiler. We believe that it will take less time and hassle to think, before do :)
 
