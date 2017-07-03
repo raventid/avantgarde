@@ -2,7 +2,8 @@ Package: Userspace/Payment/Stripe
 
 Component: Request
 
-Dependencies: Userspace/HttpFoundation/HttpRequest
+-- Should we autoimport Kernel types like in any other language?
+Dependencies: Userspace/HttpFoundation/HttpRequest, Kernel/Types/BigInt, Kernel/Types/Symbol
 
 Input: 
   amount : BigInt
