@@ -2,7 +2,7 @@ Package: /Kernel/Lib
 
 Component: Class
 
-Dependencies: /Kernel/
+Dependencies: /Kernel/*
 
 Input: param : Any, implementation : Lambda
 
