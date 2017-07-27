@@ -1,0 +1,15 @@
+Package: Kernel
+
+List: Standart
+
+Components:
+ - Plus
+ - Minus
+ - Division
+ - Times
+ - For
+ - Interactor
+ - Coroutine
+ - Mod
+ - DivMod
+ - String
