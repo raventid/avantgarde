@@ -2,6 +2,7 @@ Package: /Kernel/Lib
 
 Component: Class
 
+-- Still open question. Should we use * imports or not. Should requiring package from external source be different with local?
 Dependencies: /Kernel/*
 
 Input: param : Any, implementation : Lambda
@@ -9,4 +10,5 @@ Input: param : Any, implementation : Lambda
 Output: response : Boolean
 
 Functionality:
+  -- I really don't like this params notation. Uppercase? Type?
   ApplyImplementation(param=param, implementation=implementation, response=response)
