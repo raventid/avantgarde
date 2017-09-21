@@ -28,10 +28,9 @@ Input: login : String, password : String
 Output: out : Boolean
 
 Functionality:
-  FindUser(login=login, user=user)
-  IsTrue(a=user, out=isUser)
-  Finish(flag=isUser)
-  CheckPassword(user=user, password=password, out=out)
+  FindUser(login : String = login : String, user : Boolean = user? : Boolean)
+  IsTrue(a : Boolean = user? : Boolean, out : User = user : User)
+  CheckPassword(user : User = user : User, password : String = password : String, out : Boolean = out : Boolean)
 ```
 
 A lot of programming tasks require you to use some kind of data structures. Avangarde provides a consistent way to create data structures. 
