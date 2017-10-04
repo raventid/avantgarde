@@ -75,7 +75,11 @@ Functionality:
   Sleep(bed : Bed =)
 ```
 
-After some consideration typeclasses aka Haskell class looks like a natural way to handle some actions on components. The problem is that it defeats a part of original idea about language semantics.
+TODO: Parallelism and concurrency described with components.
+
+Current open questions:
+
+1) After some consideration typeclasses aka Haskell class looks like a natural way to handle some actions on components. The problem is that it defeats a part of original idea about language semantics.
 
 
 ```
