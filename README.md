@@ -81,6 +81,8 @@ Current open questions:
 
 1) After some consideration typeclasses aka Haskell class looks like a natural way to handle some actions on components. The problem is that it defeats a part of original idea about language semantics.
 
+2) Type system is very unstable even conseptually. Typeclasses? Traits? Linear types? The only embraced thing is that typing is static, with inference.
+
 
 ```
 Package: User/Authorization
