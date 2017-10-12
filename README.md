@@ -83,6 +83,7 @@ Current open questions:
 
 2) Type system is very unstable even conseptually. Typeclasses? Traits? Linear types? The only embraced thing is that typing is static, with inference.
 
+3) Execution based on HDL circuits is very slow. It's impossible to write a programm using this approach, so we have to either cheet and implement every low-level operation in another language (or subset of avangarde) or accept performance penalty for every action and find the solution(compiler has to know how to take circuits and transform code based on them into general performant IR).
 
 ```
 Package: User/Authorization
