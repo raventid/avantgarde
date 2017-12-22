@@ -1,6 +1,8 @@
 ![alt text](https://github.com/raventid/avangarde/blob/master/misc/github/logo.jpg "avangarde project")
 #
 
+### Note: project stalled until early 2018.
+
 Component base, general purpose, declarative language.
 
 Avangarde is a development platform and language inspired by different HDL langauges. It leverage the power of isolated components to build robust and scalabale abstractions.
