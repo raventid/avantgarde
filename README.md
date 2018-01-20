@@ -9,9 +9,9 @@ Avangarde is a development platform and language inspired by different HDL langa
 
 At the moment Avangarde project in a stage of specification. We are trying to collect some ideas and drafts before starting to implement compiler. We believe that it will take less time and hassle to think, before do :)
 
-We are planning to write compiler in Haskell and use LLVM as our backend optimizer. If you have any design suggestions for the language, feel free to open up an issue. Docs some of the specs might be out of date.
+We are planning to write compiler in Haskell and use LLVM as our backend optimizer. If you have any design suggestions for the language, feel free to open up an issue. Some of the specs might be out of date, so be careful.
 
-Spec period will end in the middle of 2018 and we'll start to tweak draft compiler. Stay tuned :)
+Spec period will end in the late 2018 and we'll start to tweak a draft compiler. Stay tuned :)
 
 ```
 Package: User/Authorization
