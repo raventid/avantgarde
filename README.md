@@ -1,7 +1,7 @@
 ![alt text](https://github.com/raventid/avangarde/blob/master/misc/github/logo.jpg "avangarde project")
 #
 
-### Note: project stalled until early 2018.
+### Note: project stalled until late 2018.
 
 Component base, general purpose, declarative language.
 
