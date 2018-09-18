@@ -1,0 +1,13 @@
+package HelloWorld
+
+dependencies Kernel/IO/puts, HelloWorld/sum
+
+input a: Num, b: Num
+
+output out: None
+
+specialNotes entryPoint
+
+functionality
+  sum(a=a, b=b, c=result)
+  puts(toScreen=result, out=out)
