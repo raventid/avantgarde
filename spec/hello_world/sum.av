@@ -1,4 +1,6 @@
-package Sum
+package HelloWorld
+
+name sum
 
 dependencies Kernel/+, Kernel/*
 
