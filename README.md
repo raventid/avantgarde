@@ -1,7 +1,7 @@
 ![alt text](https://github.com/raventid/avangarde/blob/master/misc/github/logo.jpg "avangarde project")
 #
 
-### Note: project stalled until late 2018.
+## Note: project stalled until late 2018.
 
 Component base, general purpose, declarative language.
 
@@ -12,6 +12,11 @@ At the moment Avangarde project in a stage of specification. We are trying to co
 We are planning to write compiler in Haskell and use LLVM as our backend optimizer. If you have any design suggestions for the language, feel free to open up an issue. Some of the specs might be out of date, so be careful.
 
 Spec period will end in the late 2018 and we'll start to tweak a draft compiler. Stay tuned :)
+
+### Why?
+Aren't you tired about same problems you see everywhere? How to test my code? How to organize my project structure? How to write code? What abstraction to choose, what style of coding? How to make my project comprehensible for other coders?
+
+Avantgarde provides an opinionated approach to sustainable development for medium sized software projects. It's a mixture of the best things author have seen in hardware description languages, general purpose programming languages(Ruby, Java, C#, Haskell, Ocaml, F#, Clojure). 
 
 ```
 Package: User/Authorization
