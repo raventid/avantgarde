@@ -1,12 +1,12 @@
 package HelloWorld
 
+name Main
+
 dependencies Kernel/IO/puts, HelloWorld/sum
 
 input a: Num, b: Num
 
 output out: None
-
-specialNotes entryPoint
 
 functionality
   sum(a=a, b=b, c=result)
