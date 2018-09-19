@@ -1,4 +1,4 @@
-![alt text](https://github.com/raventid/avangarde/blob/master/misc/github/logo.jpg "avangarde project")
+![alt text](https://github.com/raventid/avangarde/blob/master/misc/github/logo.png "avangarde project")
 #
 
 ## Note: project stalled until late 2018.
