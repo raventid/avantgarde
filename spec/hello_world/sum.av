@@ -9,6 +9,6 @@ input a: Num, b: Num
 output c: Num
 
 functionality
-  +(a=a, b=b, c=sum)
-  *(a=sum, b=b, c=c)
+  +(a<-a, b<-b, c->sum)
+  *(a<-sum, b<-b, c->c)
   
