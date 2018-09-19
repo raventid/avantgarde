@@ -3,7 +3,7 @@
 
 ## Note: project stalled until late 2018.
 
-Component base, general purpose, declarative language.
+Component based, general purpose, declarative language.
 
 Avangarde is a development platform and language inspired by different HDL langauges. It leverage the power of isolated components to build robust and scalabale abstractions.
 
@@ -16,7 +16,13 @@ Spec period will end in the late 2018 and we'll start to tweak a draft compiler.
 ### Why?
 Aren't you tired about same problems you see everywhere? How to test my code? How to organize my project structure? How to write code? What abstraction to choose, what style of coding? How to make my project comprehensible for other coders?
 
-Avantgarde provides an opinionated approach to sustainable development for medium sized software projects. It's a mixture of the best things author have seen in hardware description languages, general purpose programming languages(Ruby, Java, C#, Haskell, Ocaml, F#, Clojure). 
+Avantgarde provides an opinionated approach to sustainable development for medium sized software projects. It's a mixture of the best things author have seen in hardware description languages, general purpose programming languages(Ruby, Java, C#, Haskell, Ocaml, F#, Clojure) and different frameworks and approaches to build software.
+
+Avantgarde simplifies things dramatically and you will never need anything like AbstractFactory, IOC-container, Monad and MVC.
+
+### How?
+The only thing Avantgarde gives you is Component, so think about it as about language built for COP (component oriented programming). Your task as a software developer with Avantgarde is to craft components one by one and to wire them together with a purpase to reach required functionality. Despite the fact Avantgarde will have higher-order module system, which will allow you to typecheck your code in compile time and which will act as IOC-container in the same time, it's not what you should think about - you should only craft your components.
+
 
 ```
 Package: User/Authorization
