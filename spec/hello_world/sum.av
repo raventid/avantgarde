@@ -1,14 +1,23 @@
-#package HelloWorld
+# Hi, this is the Doc comment,
+# it will be use to automatically to
+# generate docs for Sum component.
+package: HelloWorld
 
-#name sum
+component: Sum
 
-#dependencies Kernel/+, Kernel/*
+dependencies:
+  Kernel/+, Kernel/*, Kernel/cond
 
-#input a: Num, b: Num
+input:
+  a: Num, b: Num, multiply?: Boolean
 
-#output c: Num
+output:
+  c: Num
 
-#functionality
+functionality:
+  # Find sum of two numbers
   +(a<-a, b<-b, c->sum)
-  *(a<-sum, b<-b, c->c)
-  
+  # Find mult of two numbers
+  *(a<-a, b<-b, c->mult)
+  # if multiply? then mult else sum
+  cond(if<-multiply?, then<-mult, else<-sum, result->c)
