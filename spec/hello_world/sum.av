@@ -1,14 +1,14 @@
-package HelloWorld
+.package HelloWorld
 
-name sum
+.name sum
 
-dependencies Kernel/+, Kernel/*
+.dependencies Kernel/+, Kernel/*
 
-input a: Num, b: Num
+.input a: Num, b: Num
 
-output c: Num
+.output c: Num
 
-functionality
+.functionality
   +(a<-a, b<-b, c->sum)
   *(a<-sum, b<-b, c->c)
   
