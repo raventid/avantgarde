@@ -1,1 +1,14 @@
+package: ConsoleCalculator
 
+component: Main
+
+dependencies: Kernel/puts, Kernel/gets, qualified String/* as S, ConsoleCalculator/calculate, Kernel/Result/try,
+ ConsoleCalculator/Command
+
+functionality:
+  puts(message <- "Enter your string")
+  gets(message -> message)
+  S.parse(text <- message, pattern <- /number |+-*/| number/, result -> parsed: Command)
+  try(result <- parsed, ok -> ok, err -> err)
+  calculate(command <- parsed, result -> calculatedResult)
+  puts(message <- "Calculated result is #{calculatedResult}")
