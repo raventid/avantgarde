@@ -4,6 +4,9 @@ component: Main
 
 dependencies: Kernel/puts, Kernel/gets, qualified String/* as S, ConsoleCalculator/calculate, Kernel/Result/try,
  ConsoleCalculator/Command
+ 
+ output: 
+  0, err: Result Int ErrorCode
 
 functionality:
   puts(message <- "Enter your string")
