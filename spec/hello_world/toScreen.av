@@ -1,13 +1,13 @@
-package HelloWorld
+package: HelloWorld
 
-name Main
+component: Main
 
-dependencies Kernel/IO/puts, HelloWorld/sum
+dependencies: Kernel/IO/puts, HelloWorld/sum
 
-input a: Num, b: Num
+input: a: Num, b: Num
 
-output out: None
+output: out: None
 
-functionality
+functionality:
   sum(a=a, b=b, c=result)
   puts(toScreen=result, out=out)
