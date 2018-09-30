@@ -6,7 +6,7 @@ package: HelloWorld
 component: Sum
 
 dependencies:
-  Kernel/+, Kernel/*, Kernel/cond
+  Num/+, Num/*, Kernel/cond
 
 input:
   a: Num, b: Num, multiply?: Boolean
