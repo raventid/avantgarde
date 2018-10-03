@@ -2,9 +2,10 @@ package: ConsoleCalculator
 
 component: Calculator
 
-input:
+input: a: Int, b: Int
 
-output:
+output: c: Int
 
 functionality:
+  cond2(c1 <- a, c2 <- b, out -> c)
   
