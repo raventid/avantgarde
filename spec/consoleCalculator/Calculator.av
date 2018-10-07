@@ -4,7 +4,7 @@ component: Calculator
 
 input: a: Int, b: Int
 
-output: c: Int
+output: c: Result<Int>
 
 functionality:
   cond2(c1 <- a, c2 <- b, out -> c)
