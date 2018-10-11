@@ -6,7 +6,7 @@ dependencies: Kernel/puts, Kernel/gets, qualified String/* as S, ConsoleCalculat
  ConsoleCalculator/Command
  
  output: 
-  0, err: Result Int ErrorCode
+  Result 0 err: Result Int ErrorCode
 
 functionality:
   puts(message <- "Enter your string")
