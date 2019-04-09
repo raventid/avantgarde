@@ -13,3 +13,12 @@ Requiremenets:
   - Module system should provide transparent way of loading dependencies.
   - Module system should not tie components to file system (though some recommended file structure might be possible).
   - Module system should fulfill the role of IOC container used in many object-oriented languages
+
+
+One more abstract note:
+
+```
+import Foo [as F] ; qualified
+open Foo [as F] ; non-qualified
+import Foo open (Bar) ; qualified, besides Bar
+```
