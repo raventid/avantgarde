@@ -18,11 +18,14 @@ Aren't you tired about same problems you see everywhere? How to test my code? Ho
 
 Avantgarde provides an opinionated approach to sustainable development for medium sized software projects. It's a mixture of the best things author have seen in hardware description languages, general purpose programming languages(Ruby, Java, C#, Haskell, Ocaml, F#, Clojure) and different frameworks and approaches to build software.
 
-Avantgarde simplifies things dramatically and you will never need anything like AbstractFactory, IOC-container, Monad and MVC.
+Avantgarde simplifies things dramatically and you will never need anything like AbstractFactory, IOC-container, Monad or MVC.
 
 ### How?
 The only thing Avantgarde gives you is Component, so think about it as about language built for COP (component oriented programming). Your task as a software developer with Avantgarde is to craft components one by one and to wire them together with a purpase to reach required functionality. Despite the fact Avantgarde will have higher-order module system, which will allow you to typecheck your code in compile time and which will act as IOC-container in the same time, it's not what you should think about - you should only craft your components.
 
+You can learn more about module system ideas here:
+
+https://people.mpi-sws.org/~rossberg/papers/Rossberg%20-%201ML%20--%20Core%20and%20modules%20united%20[JFP].pdf
 
 ```
 Package: User/Authorization
