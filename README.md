@@ -1,7 +1,7 @@
 ![alt text](https://github.com/raventid/avangarde/blob/master/misc/github/logo.png "avangarde project")
 #
 
-## Note: project stalled until late 2018.
+## Note: Project is not under development now. After some experementing I've decided that Haskell is good enough sandbox for my ideas and building a whole new language might not be the best idea for now due to time limits I have for this project. Still I might finish this work and it will be built around comprehensible and nice module system.
 
 Component based, general purpose, declarative language.
 
