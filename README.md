@@ -95,9 +95,9 @@ TODO: Parallelism and concurrency described with components.
 
 Current open questions:
 
-1) After some consideration typeclasses aka Haskell class looks like a natural way to handle some actions on components. The problem is that it defeats a part of original idea about language semantics.
+1) After some consideration typeclasses aka Haskell class looks like a natural way to handle some actions on components. The problem is that it defeats a part of original idea about language semantics. (1ML modules)
 
-2) Type system is very unstable even conseptually. Typeclasses? Traits? Linear types? The only embraced thing is that typing is static, with inference.
+2) Type system is very unstable even conseptually. Typeclasses? Traits? Linear types? The only embraced thing is that typing is static, with inference. (1ML modules)
 
 3) Execution based on HDL circuits is very slow. It's impossible to write a programm using this approach, so we have to either cheet and implement every low-level operation in another language (or subset of avangarde) or accept performance penalty for every action and find the solution(compiler has to know how to take circuits and transform code based on them into general performant IR).
 
