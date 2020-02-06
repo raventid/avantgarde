@@ -76,9 +76,8 @@ Package: User
 
 Structure: User
 
-Dependencies:
-  User/Payments/CreditCard -- concrete component
-  User/Orders/* -- everything from Orders package
+Import User/Payments/CreditCard -- concrete component
+Open User/Orders/ -- everything from Orders package
   -- User/Payments/CreditCard As CC -- oops, it's not possible, you must not rename component!
   
 
