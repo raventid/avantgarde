@@ -20,8 +20,12 @@ Avantgarde provides an opinionated approach to sustainable development for mediu
 
 Avantgarde simplifies things dramatically and you will never need anything like AbstractFactory, IOC-container, Monad or MVC.
 
+As Go was created as an attempt to dramatically simplify software development, Avantgarde tries to do the same, but with differen ideas.
+
 ### How?
-The only thing Avantgarde gives you is Component, so think about it as about language built for COP (component oriented programming). Your task as a software developer with Avantgarde is to craft components one by one and to wire them together with a purpase to reach required functionality. Despite the fact Avantgarde will have higher-order module system, which will allow you to typecheck your code in compile time and which will act as IOC-container in the same time, it's not what you should think about - you should only craft your components.
+The only thing Avantgarde gives you is Component, so think about it as about language built for COP (component oriented programming). Your task as a software developer with Avantgarde is to craft components one by one and to wire them together with a purpose to reach required functionality. Despite the fact Avantgarde will have higher-order module system, which will allow you to typecheck your code in compile time and which will act as IOC-container in the same time, it's not what you should think about - you should only craft your components.
+
+Go uses imperative, procedural style. Restricts and forbids a lot of practice. Avantgarde does the same thing. The difference is that Avantgarde is declarative and functional, you are not allowed to apply OOP or procedural styles of programming.
 
 You can learn more about module system ideas here:
 
