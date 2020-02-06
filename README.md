@@ -90,6 +90,24 @@ Functionality:
   Sleep(bed : Bed =)
 ```
 
+
+Every component allows to shutdown every effect in the system. Affraid to launch a rocket in Avanguarde? It is impossible.
+
+```
+Package structure:
+
+/source_code
+\
+ /module.av
+ /string.av
+/controls
+\
+ /module.av
+ /string.av
+/tests
+/misc
+```
+
 TODO: Parallelism and concurrency described with components.
 
 Current open questions:
