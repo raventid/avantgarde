@@ -48,6 +48,9 @@ Package: User/Authorization
 
 Component: CheckUserCredentials
 
+Import: Authorization/Websites
+Open: Authorization/bcrypt
+
 Input: login : String, password : String
 Output: out : Boolean
 
