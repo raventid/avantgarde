@@ -48,8 +48,8 @@ Package: User/Authorization
 
 Component: CheckUserCredentials
 
-Import: Authorization/Websites
-Open: Authorization/bcrypt
+Import: Authorization/Websites -- This is not a concrete implementation
+Open: Authorization/bcrypt -- it's just an interface
 
 Input: login : String, password : String
 Output: out : Boolean
